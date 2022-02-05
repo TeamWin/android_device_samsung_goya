@@ -38,17 +38,22 @@ on init
 # but someday that may change.
     symlink /system/vendor /vendor
 
-    mkdir /sdcard
-    mkdir /external_sd
+    mkdir /mrd
+    mkdir /mrd1
+    mkdir /mep2
+    mkdir /efs
+    mkdir /dtim
+    mkdir /loke1st
+    mkdir /loke2nd
+    mkdir /bootloader
+    mkdir /recovery
+    mkdir /boot
+    mkdir /radio
+    mkdir /custom
+    mkdir /preload
+    mkdir /cache
     mkdir /system
     mkdir /data
-    mkdir /cache
-    mkdir /preload
-    mkdir /custom
-    mkdir /efs
-    mkdir /tmp
-    mkdir /boot
-    mkdir /recovery
     mkdir /sideload
 
     chown root shell /tmp
